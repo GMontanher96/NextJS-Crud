@@ -1,4 +1,4 @@
-export default class Client {
+export default class client {
      #id: string
      #name: string
      #age: number
@@ -10,7 +10,7 @@ export default class Client {
     }
 
     static empty() {
-        return new Client('', 0)
+        return new client('', 0)
     }
 
     get id() {
