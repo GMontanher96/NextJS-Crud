@@ -3,6 +3,11 @@ module.exports = {
           './src/components/**/*.{js,ts,jsx,tsx}'
 
 ],
+safelist: [
+  /^bg-/,
+  /^to-/,
+  /^from-/,
+],
   darkMode: false,
   theme: {
     extend: {},
